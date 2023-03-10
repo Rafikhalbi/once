@@ -33,7 +33,10 @@ def menu():
         new_cookie = input("?=> Facebook cookies: ")
         login_cookies(new_cookie)
     print(logo)
-    print(f"•=> User Login: {Fore.GREEN}{xid}{Fore.RESET}")
+    try:
+        print(f"•=> User Login: {Fore.GREEN}{xid}{Fore.RESET}")
+    except:
+        print(f"•=> User Login: {Fore.GREEN}None{Fore.RESET}")
     print(f"!=> {Fore.YELLOW}Iklan{Fore.RESET}: {Style.BRIGHT}{Fore.GREEN}Melayani pembuatan berbagai macam tools sosial media, web scrapping, bot automatic dan juga melayani pembuatan bot seprti bot chat facebook, wa, telegram serta jasa pembuatan web seperti web phising, portfolio, dsb sesuai request.. jika berminat silahkan hubungi no wa: +6282382022200{Fore.RESET}\n")
     print("!=> Warning: crack from friendlist!!\n")
     username = input("?=> Username/id: ")
