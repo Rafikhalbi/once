@@ -15,3 +15,10 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+
+# Login
+
+Cookies?
+```
+https://chrome.google.com/webstore/detail/cookiedough/hacigcgfiefikmkmmmncaiaijoffndpl
+```
